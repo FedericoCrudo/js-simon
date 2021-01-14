@@ -1,0 +1,33 @@
+
+.timer{
+    width: 100vw;
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+}
+.timer #time-left{
+    width: 100px;
+    padding: 75px 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(43, 55, 226, 0.616);
+}
+#esito{
+    font-size: 20px;
+    margin-top:20px ;
+    color: red;
+    font-weight: bold;
+}
+.active{
+    color: black;
+}
+
+
+.hide{
+    display: none;
+}
